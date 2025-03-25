@@ -50,7 +50,7 @@ const SidebarMenu = () => {
   ];
 
   return (
-    <div className="flex flex-col text-lg lg:min-h-screen my-auto">
+    <div className="flex flex-col text-lg lg:h-screen my-auto">
       <div className="mx-8 flex lg:flex-col lg:justify-normal lg:mt-20 my-5 flex-row justify-between gap-5 ">
         {menu.map((menuItem) => {
           const isActive = location.pathname === menuItem.path;

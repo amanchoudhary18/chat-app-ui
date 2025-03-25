@@ -74,7 +74,7 @@ const Messages = () => {
   };
 
   return (
-    <div className="px-3 mt-5">
+    <div className="px-3 pt-5 h-screen">
       <div className="flex justify-between items-center mb-5">
         <p className="font-bold text-lg my-1">Messages</p>
         {usersWithoutChat.length > 0 && location.pathname === "/" && (
@@ -114,7 +114,7 @@ const Messages = () => {
 
       <SearchBar />
 
-      <div className="w-full mt-10">
+      <div className="w-full mt-5 overflow-y-auto custom-scrollbar scrollbar-thin scrollbar-thumb-green-400 scrollbar-track-gray-200 max-h-[80%] pe-2">
         {filteredChats.length === 0 && (
           <p className="text-purple-600 text-center font-medium text-sm">
             No chats to show
@@ -142,7 +142,7 @@ const Messages = () => {
             return (
               <div
                 key={chat._id}
-                className={`grid grid-cols-10 items-center gap-4 my-6 w-full h-min-[50px] hover:bg-blue-50 p-2 rounded-lg ${
+                className={`grid grid-cols-10 items-center gap-4 mb-6 w-full h-min-[50px] hover:bg-blue-50 p-2 rounded-lg ${
                   chat.archived ? "opacity-75" : ""
                 }`}
                 role="button"

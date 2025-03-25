@@ -31,7 +31,7 @@ const Layout = () => {
         <Outlet />
       </div>
 
-      <div className="lg:col-span-3 hidden lg:block">
+      <div className="lg:col-span-3 hidden lg:block h-screen">
         <Messages />
       </div>
     </div>
