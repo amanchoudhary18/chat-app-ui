@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "65f1c9876543abc123456789",
+    "name": "You",
+    "profileImage": "assets/avatars/avatar (1).png"
+  },
+  {
+    "_id": "65f1a1112222abc123456789",
+    "name": "Alice Johnson",
+    "profileImage": "assets/avatars/avatar (2).png"
+  },
+  {
+    "_id": "65f1h5556666abc123456789",
+    "name": "David Smith",
+    "profileImage": "assets/avatars/avatar (3).png"
+  },
+  {
+    "_id": "65f1e9990000abc123456789",
+    "name": "Sophia Martinez",
+    "profileImage": "assets/avatars/avatar (4).png"
+  },
+  {
+    "_id": "65f1b3334444abc123456789",
+    "name": "Michael Brown",
+    "profileImage": "assets/avatars/avatar (5).png"
+  },
+  {
+    "_id": "65f1g3334444abc123456789",
+    "name": "Olivia Taylor",
+    "profileImage": "assets/avatars/avatar (6).png"
+  },
+  {
+    "_id": "65f1i7778888abc123456789",
+    "name": "Jessica Pearson",
+    "profileImage": "assets/avatars/avatar (7).png"
+  },
+  {
+    "_id": "65f1f1112222abc123456789",
+    "name": "William Johnson",
+    "profileImage": "assets/avatars/avatar (8).png"
+  },
+  {
+    "_id": "65f1d7778888abc123456789",
+    "name": "Emily Davis",
+    "profileImage": "assets/avatars/avatar (9).png"
+  },
+  {
+    "_id": "65fii7778888abc123456789",
+    "name": "Jake Peralta",
+    "profileImage": "assets/avatars/avatar (10).png"
+  }
+]

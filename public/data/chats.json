@@ -1,0 +1,211 @@
+[
+  {
+    "_id": "65f1c1234567abc123456789",
+    "name": "Alice Johnson",
+    "isGroupChat": false,
+    "pinned": true,
+    "participants": ["65f1c9876543abc123456789", "65f1a1112222abc123456789"],
+    "messages": [
+      {
+        "text": "Hey, how are you?",
+        "time": 1711104600,
+        "seen": true,
+        "senderId": "65f1a1112222abc123456789"
+      },
+      {
+        "text": "I'm good! You?",
+        "time": 1711105000,
+        "seen": true,
+        "senderId": "65f1c9876543abc123456789"
+      },
+      {
+        "text": "Just busy with work.",
+        "time": 1711105600,
+        "seen": true,
+        "senderId": "65f1a1112222abc123456789"
+      },
+      {
+        "text": "Same here. Too many deadlines!",
+        "time": 1711106000,
+        "seen": true,
+        "senderId": "65f1c9876543abc123456789"
+      },
+      {
+        "text": "Let's catch up soon.",
+        "time": 1711106400,
+        "seen": false,
+        "senderId": "65f1a1112222abc123456789"
+      }
+    ]
+  },
+  {
+    "_id": "65f1cabcd5678abc123456789",
+    "name": "Work Group",
+    "isGroupChat": true,
+    "pinned": true,
+    "participants": [
+      "65f1c9876543abc123456789",
+      "65f1h5556666abc123456789",
+      "65f1e9990000abc123456789"
+    ],
+    "messages": [
+      {
+        "text": "Meeting at 10 AM?",
+        "time": 1711098000,
+        "seen": true,
+        "senderId": "65f1h5556666abc123456789"
+      },
+      {
+        "text": "Got it.",
+        "time": 1711098500,
+        "seen": true,
+        "senderId": "65f1c9876543abc123456789"
+      },
+      {
+        "text": "Any agenda points?",
+        "time": 1711099000,
+        "seen": true,
+        "senderId": "65f1e9990000abc123456789"
+      },
+      {
+        "text": "Project updates, mainly.",
+        "time": 1711099500,
+        "seen": true,
+        "senderId": "65f1h5556666abc123456789"
+      },
+      {
+        "text": "Alright, I'll be there.",
+        "time": 1711100000,
+        "seen": true,
+        "senderId": "65f1c9876543abc123456789"
+      }
+    ]
+  },
+  {
+    "_id": "65f1d2345678abc123456789",
+    "name": "Weekend Plans",
+    "isGroupChat": true,
+    "pinned": false,
+    "participants": [
+      "65f1c9876543abc123456789",
+      "65f1b3334444abc123456789",
+      "65f1g3334444abc123456789",
+      "65f1d7778888abc123456789",
+      "65f1f1112222abc123456789"
+    ],
+    "messages": [
+      {
+        "text": "Where are we going this weekend?",
+        "time": 1711097000,
+        "seen": true,
+        "senderId": "65f1b3334444abc123456789"
+      },
+      {
+        "text": "How about the beach?",
+        "time": 1711097400,
+        "seen": true,
+        "senderId": "65f1c9876543abc123456789"
+      },
+      {
+        "text": "Sounds great! We need snacks.",
+        "time": 1711097800,
+        "seen": true,
+        "senderId": "65f1g3334444abc123456789"
+      },
+      {
+        "text": "I'll bring drinks.",
+        "time": 1711098200,
+        "seen": true,
+        "senderId": "65f1b3334444abc123456789"
+      },
+      {
+        "text": "Excited for the weekend!",
+        "time": 1711098600,
+        "seen": false,
+        "senderId": "65f1c9876543abc123456789"
+      }
+    ]
+  },
+  {
+    "_id": "65f1e3456789abc123456789",
+    "name": "Jessica Pearson",
+    "isGroupChat": false,
+    "pinned": false,
+    "participants": ["65f1c9876543abc123456789", "65f1i7778888abc123456789"],
+    "messages": [
+      {
+        "text": "Hey! Long time no see!",
+        "time": 1711096000,
+        "seen": true,
+        "senderId": "65f1i7778888abc123456789"
+      },
+      {
+        "text": "I know! How have you been?",
+        "time": 1711096400,
+        "seen": true,
+        "senderId": "65f1c9876543abc123456789"
+      },
+      {
+        "text": "Busy with work, as always.",
+        "time": 1711096800,
+        "seen": true,
+        "senderId": "65f1i7778888abc123456789"
+      },
+      {
+        "text": "Let's meet up soon!",
+        "time": 1711097200,
+        "seen": false,
+        "senderId": "65f1c9876543abc123456789"
+      },
+      {
+        "text": "Sure! This weekend?",
+        "time": 1711097600,
+        "seen": false,
+        "senderId": "65f1i7778888abc123456789"
+      }
+    ]
+  },
+  {
+    "_id": "65f1f4567890abc123456789",
+    "name": "Family Group",
+    "isGroupChat": true,
+    "pinned": false,
+    "participants": [
+      "65f1c9876543abc123456789",
+      "65f1f1112222abc123456789",
+      "65f1d7778888abc123456789"
+    ],
+    "messages": [
+      {
+        "text": "Dinner at 8 PM?",
+        "time": 1711085000,
+        "seen": true,
+        "senderId": "65f1f1112222abc123456789"
+      },
+      {
+        "text": "I'll be there!",
+        "time": 1711085400,
+        "seen": true,
+        "senderId": "65f1c9876543abc123456789"
+      },
+      {
+        "text": "What's for dinner?",
+        "time": 1711085800,
+        "seen": true,
+        "senderId": "65f1d7778888abc123456789"
+      },
+      {
+        "text": "Mom's making lasagna.",
+        "time": 1711086200,
+        "seen": true,
+        "senderId": "65f1f1112222abc123456789"
+      },
+      {
+        "text": "Yum! See you all later!",
+        "time": 1711086600,
+        "seen": false,
+        "senderId": "65f1c9876543abc123456789"
+      }
+    ]
+  }
+]
