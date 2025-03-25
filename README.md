@@ -5,7 +5,7 @@
 </h2>
 
 <div align="center">
-    <img src="./public/illustration.png" alt="Illustration" />
+    <img src="./public/Illustration.png" alt="Illustration" />
 </div>
 
 A chat application developed using React and Tailwind CSS. This is the frontend for a chat app that allows users to create, manage, and interact in real-time conversations. You can find the deployed website [here](https://chat-app-ui-ytlq.onrender.com).
@@ -47,7 +47,7 @@ npm start
 
 ## Tech Stack
 - <b>React:</b> - Frontend library
-- <b>Tailwinf CSS:</b> - CSS framework
+- <b>Tailwind CSS:</b> - CSS framework
 - <b>React Icons:</b> - Icon Library
 - <b>Context API:</b> - For managing global state
 
