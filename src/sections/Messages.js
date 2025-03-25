@@ -19,7 +19,8 @@ const Messages = () => {
     .flatMap((chat) => chat.participants);
 
   const usersWithoutChat = users.filter(
-    (user) => user._id !== userData._id && !existingChatUsers.includes(user._id)
+    (user) =>
+      user._id !== userData?._id && !existingChatUsers.includes(user._id)
   );
 
   const startNewChat = (selectedUser) => {
@@ -27,7 +28,7 @@ const Messages = () => {
       _id: Date.now().toString(),
       name: selectedUser.name,
       isGroupChat: false,
-      participants: [userData._id, selectedUser._id],
+      participants: [userData?._id, selectedUser._id],
       messages: [],
     };
 
@@ -53,7 +54,7 @@ const Messages = () => {
     const updatedChat = {
       ...chat,
       messages: chat.messages.map((message) => {
-        if (message.senderId !== userData._id) {
+        if (message.senderId !== userData?._id) {
           message.seen = true;
         }
 
@@ -169,7 +170,7 @@ const Messages = () => {
                     <p
                       className={`text-sm truncate ${
                         !lastMessage.seen &&
-                        lastMessage.senderId !== userData._id
+                        lastMessage.senderId !== userData?._id
                           ? "text-black font-medium"
                           : "text-slate-500"
                       }`}

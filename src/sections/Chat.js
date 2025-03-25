@@ -22,7 +22,7 @@ const Chat = () => {
     .filter(
       (user) =>
         selectedChat?.participants.includes(user._id) &&
-        user._id !== userData._id
+        user._id !== userData?._id
     )
     .map((user) => user.profileImage);
 
@@ -33,7 +33,7 @@ const Chat = () => {
       text: messageText,
       time: Math.floor(Date.now() / 1000),
       seen: false,
-      senderId: userData._id,
+      senderId: userData?._id,
     };
 
     const updatedChat = {
@@ -143,7 +143,7 @@ const Chat = () => {
           {selectedChat?.messages
             .sort((a, b) => a.time - b.time)
             .map((message, index) => {
-              const isMyMessage = message.senderId === userData._id;
+              const isMyMessage = message.senderId === userData?._id;
               const senderData = users.find(
                 (user) => user._id === message.senderId
               );
