@@ -199,7 +199,7 @@ const Chat = () => {
                             <span>{formatTime(message.time)}</span>
                             {isMyMessage &&
                               (!message.seen ? (
-                                <span className="ml-1 text-blue-500">
+                                <span className="ml-1 text-slate-400">
                                   <IoCheckmark size={18} />
                                 </span>
                               ) : (
